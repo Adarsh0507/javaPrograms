@@ -1,19 +1,20 @@
 import java.util.Scanner;
 public class Currency {
-    public static void main(String args[]){
-        Scanner sc=new Scanner(System.in);
-	    System.out.print("Please enter the amount : ");
-	    float amount=sc.nextFloat();
 
 
-	    System.out.println("Please enter your choice ");
-        System.out.println("Press 1 for INR(Indian Rupee) to US Dollars");
-	    System.out.println("Press 2 for UD Dollars to INR(Indian Rupee) Dollars");
+    public static void main(String ar[])
+	{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Please enter the amount");
+	float amount=sc.nextFloat();
+	System.out.println("Please enter your choice");
+	System.out.println("Press 1 for INR(Indian Rupee) to US Dollars");
+	System.out.println("Press 2 for UD Dollars to INR(Indian Rupee) Dollars");
 
-        int choice = sc.nextInt();
+    int x=sc.nextInt();
+	switch(x)
+	{
 
-        switch(choice)
-	    {
 		case 1:
 		{	
 			amount=amount/83;
@@ -27,10 +28,11 @@ public class Currency {
 		break;
 		}
         default:
-            System.out.println("Invalid Choice!!");
-            break;
-        
+
+
+			System.out.println("Invalid Choice");
+			break;
+	}
     }
 }
-    
-}
+
