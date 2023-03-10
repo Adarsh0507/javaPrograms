@@ -1,5 +1,7 @@
 import java.util.Scanner;
 public class Currency {
+
+
     public static void main(String ar[])
 	{
 	Scanner sc=new Scanner(System.in);
@@ -12,6 +14,7 @@ public class Currency {
     int x=sc.nextInt();
 	switch(x)
 	{
+
 		case 1:
 		{	
 			amount=amount/83;
@@ -25,8 +28,11 @@ public class Currency {
 		break;
 		}
         default:
+
+
 			System.out.println("Invalid Choice");
 			break;
 	}
     }
 }
+
