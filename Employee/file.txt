@@ -1,0 +1,3 @@
+200    Astha Singh              40000
+300    Himanshi Singh Parihar   50000
+100    Adarsh Singh PArihar     20000
