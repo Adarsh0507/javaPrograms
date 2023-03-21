@@ -1,0 +1,5 @@
+1  Adarsh Singh Parihar  100
+2  Arpit Gautam          90
+3  Hardik Sharma         100
+4  Prachi Dua            90
+
